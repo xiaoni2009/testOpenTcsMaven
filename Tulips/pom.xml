@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.nichengyun</groupId>
+    <artifactId>Tulips</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <openTcs.version>4.8.4</openTcs.version>
+    </properties>
+
+    <dependencies>
+        <!--openTcs-->
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-api-base</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-api-injection</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-common</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-commadapterloopback</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-strategiesdefault</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-kernel</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentcs</groupId>
+            <artifactId>opentcs-plantoverview</artifactId>
+            <version>${openTcs.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
